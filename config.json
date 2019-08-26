@@ -1,0 +1,45 @@
+{
+  "index_name": "erpnext",
+  "start_urls": [
+    {
+      "selectors_key": "docs",
+      "url": "https://erpnext.com/docs/user/manual/en"
+    },
+    {
+      "selectors_key": "docs",
+      "url": "https://frappe.io/docs/user/en"
+    },
+    {
+      "selectors_key": "github_wiki",
+      "url": "https://github.com/frappe/erpnext/wiki"
+    },
+    {
+      "selectors_key": "github_wiki",
+      "url": "https://github.com/frappe/frappe/wiki"
+    },
+    {
+      "selectors_key": "github_wiki",
+      "url": "https://github.com/frappe/bench/wiki"
+    }
+  ],
+  "selectors": {
+    "docs": {
+      "lvl0": ".page_content h1",
+      "lvl1": ".page_content h2",
+      "lvl2": ".page_content h3",
+      "lvl3": ".page_content h4",
+      "lvl4": ".page_content h5",
+      "lvl5": ".page_content h6",
+      "text": ".page_content p,.page_content ol,.page_content ul,.page_content pre,.page_content blockquote"
+    },
+    "github_wiki": {
+      "lvl0": "h1.header-title",
+      "lvl1": ".markdown-body h2",
+      "lvl2": ".markdown-body h3",
+      "lvl3": ".markdown-body h4",
+      "lvl4": ".markdown-body h5",
+      "lvl5": ".markdown-body h6",
+      "text": ".markdown-body p,.markdown-body ol,.markdown-body ul,.markdown-body pre,.markdown-body blockquote"
+    }
+  }
+}
